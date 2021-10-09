@@ -9,4 +9,4 @@ Java version 1.8 ( Yeah because I am still living in the 90's)
 Spring boot 2.5.3 (Yeah got the latest one there)
 jacoco-maven-plugin 0.8.7 (Who cares) 
 
-And thats . Your Spring boot will be up in seconds with nice unit test reports ! 
+And thats it. Your Spring boot project with nice unit test reports will be up in seconds ! 
