@@ -12,12 +12,9 @@ framework and how Jacoco plugin can be used to generate reports from these unit 
 
 And thats it. Your Spring boot project with nice unit test reports will be up in seconds ! 
 
-Go into jacoco directory and run mvnw package in the command prompt
-
-It will create the executable jar file in target directory . Go into target directory and run java -jar jacoco-0.0.1-SNAPSHOT.jar 
-
-You just ran a spring boot app that did absolutely nothing !
-
-Now go back to jacoco directory and run command mvnw clean test . This will run all tests added under src/test/java and create the report in target/site/jacoco/index.html
+$ git clone https://github.com/sachinkumar579/jacoco.git
+$ cd jacoco
+$ mvn clean test
+# view report at ‘target/site/jacoco/index.html’
 
 Go open that html file in a browser and voila you have the unit test report. Is that 100% ? 
