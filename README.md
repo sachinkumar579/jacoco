@@ -12,9 +12,9 @@ framework and how Jacoco plugin can be used to generate reports from these unit 
 
 And thats it. Your Spring boot project with nice unit test reports will be up in seconds ! 
 
-$ git clone https://github.com/sachinkumar579/jacoco.git
-$ cd jacoco
-$ mvn clean test
-# view report at ‘target/site/jacoco/index.html’
+- $ git clone https://github.com/sachinkumar579/jacoco.git
+- $ cd jacoco
+- $ mvn clean test
+- # view report at ‘target/site/jacoco/index.html’
 
 Go open that html file in a browser and voila you have the unit test report. Is that 100% ? 
