@@ -16,7 +16,7 @@ Go into jacoco directory and run mvnw package in the command prompt
 
 It will create the executable jar file in target directory . Go into target directory and run java -jar jacoco-0.0.1-SNAPSHOT.jar 
 
-You just ran a spring boot that did absolutely nothing !
+You just ran a spring boot project that did absolutely nothing !
 
 Now go back to jacoco directory and run command mvnw clean test . This will run all tests added under src/test/java and create the report in target/site/jacoco/index.html
 
